@@ -4,7 +4,7 @@ Testing image upload ![Image](https://github.com/user-attachments/assets/d731c70
 
 Testing code upload
 
-const int  bir = 3; // The values in this and the next two lines indicate which pins you have connected the buttons to.
+![code] const int  bir = 3; // The values in this and the next two lines indicate which pins you have connected the buttons to.
 const int iki = 4;
 const int uc = 5;  
 const int A = 2; // indicates the pin servo motor attached to. 
