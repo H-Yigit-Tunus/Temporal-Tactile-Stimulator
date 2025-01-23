@@ -3,7 +3,7 @@ A device initially developed as a class project to provide tactile stimulation t
 Testing image upload ![Image](https://github.com/user-attachments/assets/d731c701-af38-4c27-bec6-10fb44cfa63e)
 
 Testing code upload
-
+```cpp
 ![code] const int  bir = 3; // The values in this and the next two lines indicate which pins you have connected the buttons to.
 const int iki = 4;
 const int uc = 5;  
