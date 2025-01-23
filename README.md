@@ -35,9 +35,4 @@ void loop() {
     THS.write(U);  
   }
     if (digitalRead(uc) == HIGH) {
-```cpp
-   ###asdasdasd
-    THS.write (B);
-    delay (1000); 
-    THS.write(U);  }
-}
+```
