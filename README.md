@@ -10,7 +10,7 @@ Note. This is the first version of TTS that was utilized in the original experim
 
  ## Building TTS
 
-As mentioned, TTS is quite easy to build since it involves assembling easily accessible and inexpensive circuit elements, which are: Arduino uno R3 (A), SG90 RC Mini Servo Motor (B), a 80 x 55 or larger breadboard (C), resistors (D), push buttons (as much as the time conditions you want to add) (E), and jumper cables. Connect the circuit elements as shown in the diagram below. The most important detail I want to draw attention to here is that all the cables connected from the buttons to the Arduino are connected to the breadboard row with code I, indicated by the red rectangle. Though as long as these cables are connected between the legs of the resistors, they would provide the same function too (for this specific setup, the row J would do the trick too, as an example). The rest of the setup is not more technical than plugging a flash drive into a USB port. Just apply gentle pressure to the pins. 
+As mentioned, TTS is quite easy to build since it involves assembling easily accessible and inexpensive circuit elements, which are: Arduino uno R3 (A), SG90 RC Mini Servo Motor (B), a 80 x 55 or larger breadboard (C), resistors (D), push buttons (as much as the time conditions you want to add) (E), and jumper cables. Connect the circuit elements with jumper cables as shown in the diagram below. The most important detail I want to draw attention to here is that all the cables connected from the buttons to the Arduino are connected to the breadboard row with code I, indicated by the red rectangle. Though as long as these cables are connected between the legs of the resistors, they would provide the same function too (for this specific setup, the row J would do the trick too, as an example). The rest of the setup is not more technical than plugging a flash drive into a USB port. Just apply gentle pressure to the pins. 
 
 ![Image](https://github.com/user-attachments/assets/2436caad-26f0-4b3a-9839-2131ef04a51c)
 
@@ -72,17 +72,26 @@ As stated in the code, the values ​​in the delay functions correspond to the
 
 To attach the TTS to the participants body you can use easily accessible double-sided medical tapes, dermatological adhesives such as Dermabond, or simply skin-friendly cosmetic tapes that provides the same function.
 
-The characteristics of the contact stimulus will vary depending on the context of your study. For example, you may need a higher object to stimulate deep areas such as the palm, while for flat areas such as the arm, an object slightly higher than the servo motor would do the job, as demonstrated below. In this context, you can use silicone due to its ease of shaping and ability to be easily attached to the servo, or alternatively, you may directly use servo horns with different qualities.
+The characteristics of the contact stimulus will vary depending on the context of your study. For example, you may need a longer object to stimulate deep areas such as the palm, while for flat areas such as the arm, an object slightly higher than the servo motor would be the right choice. In this context, you can use silicone sticks due to their ease of shaping and ability to be easily attached to the servo, or alternatively, you may directly use servo horns with different qualities. The point to be noted here is that if the contact stimulus is too high compared to the stimulated area, the servo motor may cause a pulling effect, as demonstrated below. 
+
+https://github.com/user-attachments/assets/81d7e7e1-34f8-4850-86cf-b195c03e94a3
+
+
 
 
 With all that's discussed so far, I hope I have conveyed all the necessary information about the utilization of TTS clearly enough. If you have any technical suggestions or need help with the installation, you can send an e-mail to yigittunus@hotmail.com
 
 
+ 
 
-References
 
-Dresel, C., Parzinger, A., Rimpau, C., Zimmer, C., Ceballos-Baumann, A. O., & Haslinger, B. (2008). A new device for tactile stimulation during fMRI. Neuroimage, 39(3), 1094-1103.
+ 
+ 
+  **References**
 
-Eagleman, D. M. (2008). Human time perception and its illusions. Current Opinion in Neurobiology, 18(2), 131-136.
 
-Eagleman, D. M., & Pariyadath, V. (2009). Is subjective duration a signature of coding efficiency?. Philosophical Transactions of the Royal Society B: Biological Sciences, 364(1525), 1841-1851.
+[1] Dresel, C., Parzinger, A., Rimpau, C., Zimmer, C., Ceballos-Baumann, A. O., & Haslinger, B. (2008). A new device for tactile stimulation during fMRI. Neuroimage, 39(3), 1094-1103.
+
+[2] Eagleman, D. M. (2008). Human time perception and its illusions. Current Opinion in Neurobiology, 18(2), 131-136.
+
+[3] Eagleman, D. M., & Pariyadath, V. (2009). Is subjective duration a signature of coding efficiency?. Philosophical Transactions of the Royal Society B: Biological Sciences, 364(1525), 1841-1851.
